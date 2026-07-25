@@ -1,0 +1,176 @@
+{
+  "_comment": "Arrays volcados como little-endian C-contiguous. dtypes: <f8 / <i8 / '?' (bool).",
+  "y": {
+    "file": "y.bin",
+    "shape": [
+      661500
+    ],
+    "dtype": "<f8",
+    "nbytes": 5292000
+  },
+  "S_power": {
+    "file": "S_power.bin",
+    "shape": [
+      1025,
+      1292
+    ],
+    "dtype": "<f8",
+    "nbytes": 10594400
+  },
+  "S_mel": {
+    "file": "S_mel.bin",
+    "shape": [
+      128,
+      1292
+    ],
+    "dtype": "<f8",
+    "nbytes": 1323008
+  },
+  "S_dB": {
+    "file": "S_dB.bin",
+    "shape": [
+      128,
+      1292
+    ],
+    "dtype": "<f8",
+    "nbytes": 1323008
+  },
+  "melfb": {
+    "file": "melfb.bin",
+    "shape": [
+      128,
+      1025
+    ],
+    "dtype": "<f8",
+    "nbytes": 1049600
+  },
+  "hann_stft": {
+    "file": "hann_stft.bin",
+    "shape": [
+      2048
+    ],
+    "dtype": "<f8",
+    "nbytes": 16384
+  },
+  "hann_tg": {
+    "file": "hann_tg.bin",
+    "shape": [
+      344
+    ],
+    "dtype": "<f8",
+    "nbytes": 2752
+  },
+  "oenv": {
+    "file": "oenv.bin",
+    "shape": [
+      1292
+    ],
+    "dtype": "<f8",
+    "nbytes": 10336
+  },
+  "tg": {
+    "file": "tg.bin",
+    "shape": [
+      344,
+      1292
+    ],
+    "dtype": "<f8",
+    "nbytes": 3555584
+  },
+  "tg_avg": {
+    "file": "tg_avg.bin",
+    "shape": [
+      344
+    ],
+    "dtype": "<f8",
+    "nbytes": 2752
+  },
+  "bpms": {
+    "file": "bpms.bin",
+    "shape": [
+      344
+    ],
+    "dtype": "<f8",
+    "nbytes": 2752
+  },
+  "tempo": {
+    "file": "tempo.bin",
+    "shape": [
+      1
+    ],
+    "dtype": "<f8",
+    "nbytes": 8
+  },
+  "win_length": {
+    "file": "win_length.bin",
+    "shape": [
+      1
+    ],
+    "dtype": "<i8",
+    "nbytes": 8
+  },
+  "frames_per_beat": {
+    "file": "frames_per_beat.bin",
+    "shape": [
+      1
+    ],
+    "dtype": "<f8",
+    "nbytes": 8
+  },
+  "localscore": {
+    "file": "localscore.bin",
+    "shape": [
+      1292
+    ],
+    "dtype": "<f8",
+    "nbytes": 10336
+  },
+  "cumscore": {
+    "file": "cumscore.bin",
+    "shape": [
+      1292
+    ],
+    "dtype": "<f8",
+    "nbytes": 10336
+  },
+  "backlink": {
+    "file": "backlink.bin",
+    "shape": [
+      1292
+    ],
+    "dtype": "<i8",
+    "nbytes": 10336
+  },
+  "tail": {
+    "file": "tail.bin",
+    "shape": [
+      1
+    ],
+    "dtype": "<i8",
+    "nbytes": 8
+  },
+  "beats_bool": {
+    "file": "beats_bool.bin",
+    "shape": [
+      1292
+    ],
+    "dtype": "?",
+    "nbytes": 1292
+  },
+  "beat_frames": {
+    "file": "beat_frames.bin",
+    "shape": [
+      59
+    ],
+    "dtype": "<i8",
+    "nbytes": 472
+  },
+  "beat_times": {
+    "file": "beat_times.bin",
+    "shape": [
+      59
+    ],
+    "dtype": "<f8",
+    "nbytes": 472
+  }
+}

@@ -1,0 +1,14 @@
+# Git LFS - Archivos binarios grandes
+tests/golden/golden.npz filter=lfs diff=lfs merge=lfs -text
+tests/golden/song_f32.wav filter=lfs diff=lfs merge=lfs -text
+tests/golden/song_f32.pcm filter=lfs diff=lfs merge=lfs -text
+tests/golden/bin/S_power.bin filter=lfs diff=lfs merge=lfs -text
+tests/golden/bin/y.bin filter=lfs diff=lfs merge=lfs -text
+tests/golden/bin/tg.bin filter=lfs diff=lfs merge=lfs -text
+tests/golden/bin/S_dB.bin filter=lfs diff=lfs merge=lfs -text
+tests/golden/bin/S_mel.bin filter=lfs diff=lfs merge=lfs -text
+tests/golden/bin/melfb.bin filter=lfs diff=lfs merge=lfs -text
+tests/golden/bin/oenv.bin filter=lfs diff=lfs merge=lfs -text
+tests/golden/bin/localscore.bin filter=lfs diff=lfs merge=lfs -text
+tests/golden/bin/cumscore.bin filter=lfs diff=lfs merge=lfs -text
+tests/golden/bin/backlink.bin filter=lfs diff=lfs merge=lfs -text
