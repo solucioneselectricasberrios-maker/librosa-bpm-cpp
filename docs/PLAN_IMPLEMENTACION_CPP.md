@@ -2,7 +2,7 @@
 
 **Fecha:** 2026-06-30 · **Target:** ≥93% similitud en beats vs `reference_python.json`
 **Verificado contra:** librosa 0.11.0 · numpy 2.4.6 · scipy 1.18.0 (código fuente, no docs)
-**Workspace:** `C:\Opencode\New folder\`
+**Workspace:** raiz del repositorio
 
 > ⚠️ Este plan **corrige 4 fórmulas erróneas** del `LIBROSA_BPM_PORT_CPP.md` original y
 > **añade 5 detalles omitidos** que romperían la similitud. Todas las fórmulas de abajo
@@ -48,7 +48,7 @@
 ## 2. ARQUITECTURA DEL PROYECTO
 
 ```
-C:\Opencode\New folder\
+./
 ├── CMakeLists.txt
 ├── third_party/
 │   ├── kissfft/                  (submódulo)
@@ -386,7 +386,7 @@ Gen golden ───────────────────────
 
 ## 9. ENTREGABLES FINALES
 
-1. Biblioteca `librosa_bpm` (headers + src) en `C:\Opencode\New folder\`.
+1. Biblioteca `librosa_bpm` (headers + src) en raiz del proyecto.
 2. Ejecutable `bpm_cli.exe`.
 3. `golden.npz` + `golden_beats.json` regenerables.
 4. Suite de tests 01–07 verde.
